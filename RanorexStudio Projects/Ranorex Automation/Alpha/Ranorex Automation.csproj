@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{5B6C81CD-D22C-4BCA-81D5-3F59E438488A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Alpha</RootNamespace>
+    <AssemblyName>RanorexAutomation</AssemblyName>
+    <RanorexVersion>8.1</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <projectdefaultrepository>a48b7e18-ebf5-4f72-95b9-939f806b28ca</projectdefaultrepository>
+    <TargetFrameworkProfile />
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <StartAction>Project</StartAction>
+    <NoWin32Manifest>False</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APlaceToTryCodeAfterInit.cs">
+      <BoundTo>fea0062c-f933-4cde-ad77-6ff6e2123e38</BoundTo>
+      <DependentUpon>APlaceToTryCodeAfterInit.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>922b2667-b07a-43b1-bde9-d3bcf8e23203</id>
+    </Compile>
+    <Compile Include="APlaceToTryCodeAfterInit.UserCode.cs">
+      <BoundTo>fea0062c-f933-4cde-ad77-6ff6e2123e38</BoundTo>
+      <DependentUpon>APlaceToTryCodeAfterInit.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ecc156e5-027a-4fb3-9cd3-51b3e4e17ec0</id>
+    </Compile>
+    <Compile Include="fnCalculateEnrollmentCheckDigit.cs">
+      <id>123e23c2-090e-4d48-9d1c-03f73228b8b1</id>
+    </Compile>
+    <Compile Include="fnCheckout.cs">
+      <id>9e8a5868-cf36-41f2-94dd-e3e19c3ae115</id>
+    </Compile>
+    <Compile Include="fnClearBrowserCache.cs">
+      <id>8933d8f9-2f04-403d-b8ce-ba3c17608497</id>
+    </Compile>
+    <Compile Include="fnCommon47and48.cs">
+      <id>d5286928-043d-49d4-b4ec-4487bb7cfd46</id>
+    </Compile>
+    <Compile Include="fnCommon14and15.cs">
+      <id>e59c4f38-79ec-4ef7-bb5f-524cf08c77d8</id>
+    </Compile>
+    <Compile Include="fnDataLevelPreOrder.cs">
+      <id>268d06ca-9e4f-4fa8-9609-f9d87f93c0d8</id>
+    </Compile>
+    <Compile Include="fnEnterSKU.cs">
+      <id>ec2813bc-9257-4e6a-8abf-492c1432054e</id>
+    </Compile>
+    <Compile Include="fnGetPOSProcessInfo.cs">
+      <id>7a2560c5-5534-41ff-bed2-815096d32583</id>
+    </Compile>
+    <Compile Include="fnProductionIssueFunctions.cs">
+      <id>659edd1c-6e56-43e9-b4c8-9bda2989637c</id>
+    </Compile>
+    <Compile Include="fnReadSimpleOneSKUsFromCSVFile.cs">
+      <id>42084269-bd4b-4bea-959c-4dccebdf1f90</id>
+    </Compile>
+    <Compile Include="fnScenario15_Performance_Dashboard_Loop.cs">
+      <id>f95179c2-b990-4282-89dd-f76d9cc08c48</id>
+    </Compile>
+    <Compile Include="fnScenario16_buy_1_SKU_with_5_Returns.cs">
+      <id>1376088d-7bad-4ffe-a974-c15cba4eaef8</id>
+    </Compile>
+    <Compile Include="fnScenario18_Transaction_Journal.cs">
+      <id>ea93ff59-642b-4a5d-a610-3a84f25e23c0</id>
+    </Compile>
+    <Compile Include="fnScenario19_CoverArt.cs">
+      <id>3a93669a-8dba-43c4-ab15-e3f9e43ca447</id>
+    </Compile>
+    <Compile Include="fnScenario20_HR_Workday_EmployeeList.cs">
+      <id>0321b67a-dc18-4293-9985-5ef59c59a46f</id>
+    </Compile>
+    <Compile Include="fnScenario21_WIS.cs">
+      <id>5ef7a529-59a0-4e8c-a8ab-0fc42732afee</id>
+    </Compile>
+    <Compile Include="fnScenario33_Retech_Simple_One_SKU_Cash.cs">
+      <id>3ae8d371-9ebc-4938-b038-13fb0289cb93</id>
+    </Compile>
+    <Compile Include="fnScenario37_Retech_Reserve_Pickup.cs">
+      <id>82d3cdf8-f96d-4218-8da5-9ec3f70cf242</id>
+    </Compile>
+    <Compile Include="fnScenario36_Retech_F10_Item_Search.cs">
+      <id>5bf9a2a2-9f8a-4ae0-83a4-d3b3021f52ea</id>
+    </Compile>
+    <Compile Include="fnScenario34_Retech_Simple_One_SKU_Credit.cs">
+      <id>2f3e836a-6b3d-4144-a601-06a85063892f</id>
+    </Compile>
+    <Compile Include="fnScenario38_Retech_Suspend_Resume.cs">
+      <id>e4f88554-4b4e-488b-b1f2-664f15c6c4e5</id>
+    </Compile>
+    <Compile Include="fnScenario41_GPG.cs">
+      <id>798e54fe-19d0-46f2-bad0-b1567a0f9eb4</id>
+    </Compile>
+    <Compile Include="fnScenario42_PRP.cs">
+      <id>6d73967d-3225-4d78-b382-569377015944</id>
+    </Compile>
+    <Compile Include="fnScenario43_CardBalance.cs">
+      <id>5770786a-ed0a-47a1-b36a-771e2dd8d625</id>
+    </Compile>
+    <Compile Include="fnScenario47_buy_1_SKU_with_5_trades.cs">
+      <id>48e9eff6-a5bc-4096-ade5-f9f40d40b832</id>
+    </Compile>
+    <Compile Include="fnScenario14_Performance_Dashboard.cs">
+      <id>7870ec15-8785-4cec-bc73-b9eb497c42b9</id>
+    </Compile>
+    <Compile Include="fnScenario50_init_for_Dashboard.cs">
+      <id>764fc744-abbf-4f6d-9df0-a187df7d2c8d</id>
+    </Compile>
+    <Compile Include="fnStartTransaction.cs">
+      <id>3a2a3e48-4f9f-4617-a8c3-4f3c3041f929</id>
+    </Compile>
+    <Compile Include="fnUpdateItemMDB.cs">
+      <id>487d957f-5230-411c-b87f-54478f0d69c1</id>
+    </Compile>
+    <Compile Include="fnUpdatePALStatusMonitor.cs">
+      <id>6808c395-7bb4-4a84-9941-159f6f7ae329</id>
+    </Compile>
+    <Compile Include="fnWriteOutStatsQ4Buffer.cs">
+      <id>1b9b0a7b-b2dc-4be2-be28-88667e7f912d</id>
+    </Compile>
+    <Compile Include="fnParseSwitches.cs">
+      <id>3e4a4606-87a0-4846-9dad-440e5b2601e1</id>
+    </Compile>
+    <Compile Include="fnScenario13_eMail.cs">
+      <id>96e91b64-4a4a-4bf4-8060-6ec9ee11f994</id>
+    </Compile>
+    <Compile Include="fnDoScenarios.cs">
+      <id>76a4e410-db4a-405b-a46b-17312c5433cb</id>
+    </Compile>
+    <Compile Include="fnDumpStats.cs">
+      <id>6cf6984d-7b64-4a1f-9be2-cef77b9d0b33</id>
+    </Compile>
+    <Compile Include="fnDumpStatsQ4.cs">
+      <id>e4e729c0-dd84-4bdd-bffa-53c9bee5f21c</id>
+    </Compile>
+    <Compile Include="fnEnterCustomerInformation.cs">
+      <id>c0021053-2164-4c55-9b3c-dc2ff441e946</id>
+    </Compile>
+    <Compile Include="fnGetEndTime.cs">
+      <id>e7136648-b2ea-4061-b65e-638acb6d30ff</id>
+    </Compile>
+    <Compile Include="fnGetInterationsToRun.cs">
+      <id>1c9a2bf1-4f4d-4eee-8636-ae60b7d18664</id>
+    </Compile>
+    <Compile Include="fnGetNextPhoneNumber.cs">
+      <id>60cf408f-65fd-49d9-971d-9d6abfc6e3d3</id>
+    </Compile>
+    <Compile Include="fnGetRegister1DriveLetter.cs">
+      <id>2eff6da9-dd11-4da6-b33a-beb813919d4d</id>
+    </Compile>
+    <Compile Include="fnGetRegisterInfo.cs">
+      <id>84bb003a-808d-4f78-a43a-5e947f0e45f0</id>
+    </Compile>
+    <Compile Include="fnGetRegisterNumber.cs">
+      <id>1782c053-45dc-4aa9-972b-1039b1e04015</id>
+    </Compile>
+    <Compile Include="fnGetScenariosToRun.cs">
+      <id>c01b378d-98a2-4239-8730-825b6c22cc97</id>
+    </Compile>
+    <Compile Include="fnGetStartTime.cs">
+      <id>29399abc-2250-45cd-983e-215c19137629</id>
+    </Compile>
+    <Compile Include="fnSystemInfo.cs">
+      <id>a04ed897-0bdc-44e9-af7e-eb9e04184977</id>
+    </Compile>
+    <Compile Include="fnTearDown.cs">
+      <id>818bd559-da3e-4882-b4c3-96540f2b55f2</id>
+    </Compile>
+    <Compile Include="fnTimeMinusOverhead.cs">
+      <id>30d2a9a9-9cfc-47e4-b122-bd241a0f1f7a</id>
+    </Compile>
+    <Compile Include="GlobalInit.cs">
+      <id>ea0c0c5b-e44e-4d79-b53d-31ecc84211d2</id>
+    </Compile>
+    <Compile Include="fnInitErrorFile.cs">
+      <id>e9594626-dc8c-42ad-8060-2e036cb90930</id>
+    </Compile>
+    <Compile Include="fnInitLogFile.cs">
+      <id>7a1fdb60-fe9c-4b71-8ec9-236ccfbb3be5</id>
+    </Compile>
+    <Compile Include="fnInitStatsFile.cs">
+      <id>3bcbcc53-0e1f-41c4-965c-193f1a0b8e7b</id>
+    </Compile>
+    <Compile Include="fnInitStatsFileQ4.cs">
+      <id>63fbf29a-c02c-47c4-afb7-62b22f400325</id>
+    </Compile>
+    <Compile Include="fnPlayWavFile.cs">
+      <id>32a5da5f-45d4-4ca8-8f1c-5a1b33fbd0aa</id>
+    </Compile>
+    <Compile Include="fnReadPhoneNumbersFromCSVFile.cs">
+      <id>9b739ee6-6b9a-469a-b2dc-269b3298e6af</id>
+    </Compile>
+    <Compile Include="fnWaitForBrowserToLoad.cs">
+      <id>982c4d2c-20d4-4585-8b80-bbb9043c53de</id>
+    </Compile>
+    <Compile Include="fnWaitForItemSearchToFinish.cs">
+      <id>e5650672-1bbc-4c18-930f-250782778709</id>
+    </Compile>
+    <Compile Include="fnWriteToErrorFile.cs">
+      <id>d458cabe-8173-4b34-ab03-679d9aed624b</id>
+    </Compile>
+    <Compile Include="fnWriteToLogFile.cs">
+      <id>368e2825-dc17-4638-8a6c-5446ac928539</id>
+    </Compile>
+    <Compile Include="GlobalVariables.cs">
+      <id>3467087e-6fcd-4e78-b82f-71b8b76e1e18</id>
+    </Compile>
+    <Compile Include="Halloween.cs">
+      <id>74e4dfb9-b3cf-4294-bc44-524f4086ffd5</id>
+    </Compile>
+    <Compile Include="Ini.cs">
+      <id>7dcb11fc-6a81-4071-9714-ebacf5bf82e7</id>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <id>2555dc44-df6a-419b-9f39-c2abded5cf12</id>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <id>30ffcebd-01d2-46b9-aa07-02d684a67d24</id>
+    </Compile>
+    <Compile Include="APlaceToTryCode.cs">
+      <BoundTo>51497673-c5f7-49f8-9b2e-64e957d182d0</BoundTo>
+      <DependentUpon>APlaceToTryCode.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3f25b17-fed1-4d5d-9c49-df57484a4d16</id>
+    </Compile>
+    <Compile Include="APlaceToTryCode.UserCode.cs">
+      <BoundTo>51497673-c5f7-49f8-9b2e-64e957d182d0</BoundTo>
+      <DependentUpon>APlaceToTryCode.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f9175e59-aa63-4114-b7eb-aeaebd11efd0</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>9ef1d762-7fb3-442c-b576-bba1e6240828</id>
+    </Compile>
+    <Compile Include="fnBrowserGoHome.cs">
+      <id>c624fef8-84bc-4dbb-825d-7b5f94bd631f</id>
+    </Compile>
+    <Compile Include="fnInputBoxRoutines.cs">
+      <id>b3f3a4d0-18c3-4208-a766-04a1a27bb331</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>a89764c0-5eaf-490a-b8d6-bae508a2758d</id>
+    </Compile>
+    <Compile Include="RanorexRepository.cs">
+      <id>7996f481-2a18-4032-9289-5863a61a8810</id>
+      <DependentUpon>RanorexRepository.rxrep</DependentUpon>
+      <BoundTo>a48b7e18-ebf5-4f72-95b9-939f806b28ca</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <None Include="APlaceToTryCodeAfterInit.rxrec">
+      <BoundTo>a48b7e18-ebf5-4f72-95b9-939f806b28ca</BoundTo>
+      <id>fea0062c-f933-4cde-ad77-6ff6e2123e38</id>
+      <recordtableid>7c7fe4f2-daf6-48eb-993e-c8d48496e09d</recordtableid>
+    </None>
+    <None Include="APlaceToTryCode.rxrec">
+      <BoundTo>a48b7e18-ebf5-4f72-95b9-939f806b28ca</BoundTo>
+      <id>51497673-c5f7-49f8-9b2e-64e957d182d0</id>
+      <recordtableid>00cf32b0-b1bf-4dc3-92fd-2f9b1714fd1f</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>479021c4-c92f-43d6-947e-a00c1327eba2</id>
+    </None>
+    <None Include="RanorexRepository.rximg">
+      <BoundTo>a48b7e18-ebf5-4f72-95b9-939f806b28ca</BoundTo>
+      <DependentUpon>RanorexRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>e190aedb-8f78-4f69-8be7-e7eabedcf30f</id>
+    </None>
+    <None Include="RanorexRepository.rxrep">
+      <id>a48b7e18-ebf5-4f72-95b9-939f806b28ca</id>
+      <repoid>e3a7ca8e-8cba-49f0-9837-8f939f58498e</repoid>
+      <reporootid>067cb203-d8d4-4726-a174-0db4075fd2c2</reporootid>
+    </None>
+    <Content Include="Alpha.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>aa2bf8e0-a87f-48be-b683-08c827dcf3cb</id>
+    </Content>
+    <Content Include="PALTestCase.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>bc5e389d-ac84-4846-92c0-971a95f2d879</id>
+    </Content>
+    <Content Include="Ranorex Automation.cd">
+      <id>43f7d0cd-034e-4f0d-8d60-6f6dd481934c</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

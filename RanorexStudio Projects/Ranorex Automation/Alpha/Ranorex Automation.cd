@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Alpha.APlaceToTryCodeAfterInit" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="3.212926" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnCheckForCodeF4Warning" Collapsed="False">
+    <Position X="0.5" Y="3.2" Width="3.400485" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnCheckForSKUPopUps" Collapsed="False">
+    <Position X="0.5" Y="4.9" Width="3.021393" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnCommonScenario9and10" Collapsed="False">
+    <Position X="0.5" Y="6.6" Width="3.337965" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.FnDoQuickCheck" Collapsed="False">
+    <Position X="0.5" Y="8.2" Width="2.35527" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoPhoneNumberTest" Collapsed="False">
+    <Position X="0.5" Y="9.9" Width="2.958551" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario10" Collapsed="False">
+    <Position X="0.5" Y="11.6" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario11" Collapsed="False">
+    <Position X="0.5" Y="13.3" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario12" Collapsed="False">
+    <Position X="0.5" Y="14.9" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario13" Collapsed="False">
+    <Position X="0.5" Y="16.6" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.FnDoScenario03" Collapsed="False">
+    <Position X="0.5" Y="18.3" Width="2.279967" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.FnDoScenario04" Collapsed="False">
+    <Position X="0.5" Y="20" Width="2.279967" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.FnDoScenario05" Collapsed="False">
+    <Position X="0.5" Y="21.6" Width="2.279967" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.FnDoScenario06" Collapsed="False">
+    <Position X="0.5" Y="23.3" Width="2.279967" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.FnDoScenario07" Collapsed="False">
+    <Position X="0.5" Y="25" Width="2.279967" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.FnDoScenario08" Collapsed="False">
+    <Position X="0.5" Y="26.7" Width="2.279967" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.FnDoScenario09" Collapsed="False">
+    <Position X="0.5" Y="28.5" Width="2.279967" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario14" Collapsed="False">
+    <Position X="0.5" Y="30.2" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario15" Collapsed="False">
+    <Position X="0.5" Y="31.8" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario16" Collapsed="False">
+    <Position X="0.5" Y="33.5" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario17" Collapsed="False">
+    <Position X="0.5" Y="35.2" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario18" Collapsed="False">
+    <Position X="0.5" Y="36.9" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario19" Collapsed="False">
+    <Position X="0.5" Y="38.5" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario20" Collapsed="False">
+    <Position X="0.5" Y="40.2" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario21" Collapsed="False">
+    <Position X="0.5" Y="41.9" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario22" Collapsed="False">
+    <Position X="0.5" Y="43.5" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario23" Collapsed="False">
+    <Position X="0.5" Y="45.2" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario24" Collapsed="False">
+    <Position X="0.5" Y="46.9" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario25" Collapsed="False">
+    <Position X="0.5" Y="48.6" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario26" Collapsed="False">
+    <Position X="0.5" Y="50.2" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario27" Collapsed="False">
+    <Position X="0.5" Y="51.9" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario28" Collapsed="False">
+    <Position X="0.5" Y="53.6" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario29" Collapsed="False">
+    <Position X="0.5" Y="55.3" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenario30" Collapsed="False">
+    <Position X="0.5" Y="56.9" Width="2.20445" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDoScenarios" Collapsed="False">
+    <Position X="0.5" Y="58.6" Width="2.065768" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDumpStats" Collapsed="False">
+    <Position X="0.5" Y="60.1" Width="1.887985" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnDumpStatsQ4" Collapsed="False">
+    <Position X="0.5" Y="61.8" Width="2.19027" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnEnterCustomerInformation" Collapsed="False">
+    <Position X="0.5" Y="63.5" Width="3.425514" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnEnterSKU" Collapsed="False">
+    <Position X="0.5" Y="65.2" Width="1.774655" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnF12TotalTransaction" Collapsed="False">
+    <Position X="0.5" Y="66.8" Width="2.848014" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnF1PhoneLookup" Collapsed="False">
+    <Position X="0.5" Y="68.5" Width="2.430251" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnGetEndTime" Collapsed="False">
+    <Position X="0.5" Y="70.2" Width="2.040524" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnGetInterationsToRun" Collapsed="False">
+    <Position X="0.5" Y="71.9" Width="2.871862" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnGetNextPhoneNumber" Collapsed="False">
+    <Position X="0.5" Y="73.4" Width="3.059313" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.FnGetQuickSKUPhone" Collapsed="False">
+    <Position X="0.5" Y="75.1" Width="2.909674" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnGetRegister1DriveLetter" Collapsed="False">
+    <Position X="0.5" Y="76.6" Width="3.212819" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnGetRegisterInfo" Collapsed="False">
+    <Position X="0.5" Y="78.1" Width="2.355377" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnGetRegisterNumber" Collapsed="False">
+    <Position X="0.5" Y="79.6" Width="2.783239" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnGetScenariosToRun" Collapsed="False">
+    <Position X="0.5" Y="81.2" Width="2.821481" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnGetStartTime" Collapsed="False">
+    <Position X="0.5" Y="82.7" Width="2.115827" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnInitErrorFileQ4" Collapsed="False">
+    <Position X="0.5" Y="84.3" Width="2.244303" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnGlobalInit" Collapsed="False">
+    <Position X="0.5" Y="85.9" Width="1.728463" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnInitErrorFile" Collapsed="False">
+    <Position X="0.5" Y="87.4" Width="1.942018" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnInitLogFile" Collapsed="False">
+    <Position X="0.5" Y="88.9" Width="1.816657" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnInitStatsFile" Collapsed="False">
+    <Position X="0.5" Y="90.4" Width="1.955016" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnInitStatsFileQ4" Collapsed="False">
+    <Position X="0.5" Y="92" Width="2.257301" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnLogin" Collapsed="False">
+    <Position X="0.5" Y="93.5" Width="1.322946" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnLogout" Collapsed="False">
+    <Position X="0.5" Y="95.2" Width="1.460231" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnLogoutTransaction" Collapsed="False">
+    <Position X="0.5" Y="96.8" Width="2.645416" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnPlayWavFile" Collapsed="False">
+    <Position X="0.5" Y="98.5" Width="2.030426" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnReadPhoneNumbersFromCSVFile" Collapsed="False">
+    <Position X="0.5" Y="100.2" Width="4.245465" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnWaitForBrowserToLoad" Collapsed="False">
+    <Position X="0.5" Y="101.7" Width="3.161041" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnWaitForItemSearchToFinish" Collapsed="False">
+    <Position X="0.5" Y="103.4" Width="3.591803" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnWriteToErrorFile" Collapsed="False">
+    <Position X="0.5" Y="105.1" Width="2.432829" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnWriteToErrorFileQ4" Collapsed="False">
+    <Position X="0.5" Y="106.7" Width="2.735114" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnWriteToLogFile" Collapsed="False">
+    <Position X="0.5" Y="108.4" Width="2.307467" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.RanorexAutomation" Collapsed="False">
+    <Position X="0.5" Y="110.1" Width="2.582145" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.Global" Collapsed="False">
+    <Position X="0.5" Y="111.6" Width="3.124894" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.RanorexRepositoryFolders" Collapsed="False">
+    <Position X="0.5" Y="141.3" Width="5.531168" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.RanorexRepository" Collapsed="False">
+    <Position X="0.5" Y="262.8" Width="4.737809" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.APlaceToTryCode" Collapsed="False">
+    <Position X="0.5" Y="285.6" Width="2.430895" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnBrowserGoHome" Collapsed="False">
+    <Position X="0.5" Y="288.3" Width="2.504801" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.fnInputBoxRoutines" Collapsed="False">
+    <Position X="0.5" Y="290" Width="2.557223" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.InputBoxResult" Collapsed="False">
+    <Position X="0.5" Y="291.5" Width="1.833361" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.InputBox" Collapsed="False">
+    <Position X="0.5" Y="293.1" Width="2.234904" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.Program" Collapsed="False">
+    <Position X="0.5" Y="298.8" Width="1.029215" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.RanorexRepository2" Collapsed="False">
+    <Position X="0.5" Y="300.2" Width="2.644987" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="Alpha.RanorexRepository2Folders" Collapsed="False">
+    <Position X="0.5" Y="302.3" Width="2.003781" />
+    <Compartments />
+  </Class>
+  <Class Name="Alpha.UserCodeModule1" Collapsed="False">
+    <Position X="0.5" Y="303.3" Width="2.468708" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

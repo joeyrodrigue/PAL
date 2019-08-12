@@ -1,0 +1,9 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Ranorex Automation[Solution Items[]Ranorex Automation[APlaceToTryCodeAfterInit.rxrec[]]]]&#xD;&#xA;Solution Ranorex Automation\Ranorex Automation\fnWriteToLogFile.cs&#xD;&#xA;Solution Ranorex Automation\Ranorex Automation\fnScenario41_GPG.cs" />
+  <StartupProject value="{5B6C81CD-D22C-4BCA-81D5-3F59E438488A}" />
+</Properties>

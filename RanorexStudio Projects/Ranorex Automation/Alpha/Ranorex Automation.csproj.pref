@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="fnWriteToLogFile.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="RanorexRepository.rxrep" />
+    <Element value="fnWriteToLogFile.cs" />
+    <Element value="fnGetInterationsToRun.cs" />
+    <Element value="GlobalVariables.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

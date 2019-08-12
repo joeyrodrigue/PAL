@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{DAC87FB1-C026-40D4-BF08-AF1053B49F1F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GamestopAutomation</RootNamespace>
+    <AssemblyName>GamestopAutomation</AssemblyName>
+    <RanorexVersion>4</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <projectdefaultrepository>5797dfa0-2acb-4380-af7b-bc56eef50740</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>2e18918d-7add-45cb-bd07-e998d577e44d</id>
+    </Compile>
+    <Compile Include="Cash.cs">
+      <id>e27bf774-401a-478a-8a31-084c09788ab3</id>
+    </Compile>
+    <Compile Include="Checkout.cs">
+      <id>b126b191-13af-493f-969f-3aee35822c64</id>
+    </Compile>
+    <Compile Include="FindCustomer.cs">
+      <id>e696c528-4ea0-481c-8bcb-74894fbd4485</id>
+    </Compile>
+    <Compile Include="GamestopAutomationRepository.cs">
+      <BoundTo>5797dfa0-2acb-4380-af7b-bc56eef50740</BoundTo>
+      <DependentUpon>GamestopAutomationRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>8f219b72-eb92-4a8f-b8bf-bbc656074c76</id>
+    </Compile>
+    <Compile Include="Global.cs">
+      <id>ff9adbec-fb21-4a40-9f8a-3545229f8d9a</id>
+    </Compile>
+    <Compile Include="GPG.cs">
+      <id>4780de22-b801-4ebe-84c2-c418b4e3f05c</id>
+    </Compile>
+    <Compile Include="gslogger.cs">
+      <id>65d81a6b-a256-48de-870c-c5203ae54e80</id>
+    </Compile>
+    <Compile Include="IncludeCustomer.cs">
+      <id>23feee74-174d-4852-9a50-fbe4efba3034</id>
+    </Compile>
+    <Compile Include="Ini.cs">
+      <id>4df3f841-843c-4d4c-8b42-05160bd69576</id>
+    </Compile>
+    <Compile Include="Login.cs">
+      <id>9adae182-c881-4ff6-99d1-b913eacd9585</id>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <id>6cf484b5-a762-4f9d-a19a-0c21208505b0</id>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <id>02a48d0a-eece-402e-9c83-ae3e19c92af2</id>
+      <DependentUpon>Menu.cs</DependentUpon>
+      <BoundTo>6cf484b5-a762-4f9d-a19a-0c21208505b0</BoundTo>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>65b90788-2414-47d5-8b79-e31f9d1284bf</id>
+    </Compile>
+    <Compile Include="AddItems.cs">
+      <id>dba4d884-b795-4ad6-a6d9-b8f38e3f164e</id>
+    </Compile>
+    <Compile Include="PURBenefits.cs">
+      <id>b9068c6a-8fb9-493e-81cc-647415246419</id>
+    </Compile>
+    <Compile Include="Root.cs">
+      <id>62537cdd-f305-403f-8d8a-bef8bb0a785e</id>
+    </Compile>
+    <Compile Include="SystemInfo.cs">
+      <id>3f31b4fa-71de-467d-8053-5eef86970854</id>
+    </Compile>
+    <Compile Include="Verify.cs">
+      <id>21a48396-c435-4dae-bb38-ed76c09b00c5</id>
+    </Compile>
+    <None Include="app.config">
+      <id>0906a3dd-ee5a-4e06-8322-0d886d8fdd2a</id>
+    </None>
+    <None Include="GamestopAutomationRepository.rximg">
+      <BoundTo>5797dfa0-2acb-4380-af7b-bc56eef50740</BoundTo>
+      <DependentUpon>GamestopAutomationRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>679a4576-c3a0-4283-b94e-1d936f6b1249</id>
+    </None>
+    <None Include="GamestopAutomationRepository.rxrep">
+      <id>5797dfa0-2acb-4380-af7b-bc56eef50740</id>
+      <repoid>c06935f1-a5f9-42fd-8065-6b859b9a2d8e</repoid>
+      <reporootid>56b11c21-1377-43f1-b7a4-a953275544f8</reporootid>
+    </None>
+    <None Include="test.config">
+      <id>4ab5bb7c-f202-4d8a-972c-61c0e4fba647</id>
+    </None>
+    <Content Include="GamestopAutomation.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>12b1a562-3b5c-4200-9b69-c4e08286a056</id>
+    </Content>
+    <Content Include="GamestopAutomation.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>2485822b-58c3-4964-81c3-d1a8689c2fe9</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

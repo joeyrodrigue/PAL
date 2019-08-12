@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="00cf32b0-b1bf-4dc3-92fd-2f9b1714fd1f"
+mode="Desktop"
+rxversion="8.1">
+	<name>
+		APlaceToTryCode
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="APlaceToTryCode"
+	namespace="Alpha">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="e3a7ca8e-8cba-49f0-9837-8f939f58498e"
+	name="RanorexRepository"
+	relativepath="RanorexRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="RanorexRepository"
+		namespace="Alpha">
+		</codegen>
+		<rootfolder
+		id="067cb203-d8d4-4726-a174-0db4075fd2c2"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		APlaceToTryCode.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

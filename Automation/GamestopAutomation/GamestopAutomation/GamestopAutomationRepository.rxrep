@@ -1,0 +1,27 @@
+﻿<repository
+name="GamestopAutomationRepository"
+id="c06935f1-a5f9-42fd-8065-6b859b9a2d8e"
+rxversion="4.1.4.16685">
+	<codegen
+	classname="GamestopAutomationRepository"
+	namespace="GamestopAutomation"/>
+	<rootfolder
+	name="Root"
+	id="56b11c21-1377-43f1-b7a4-a953275544f8"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="lv2"
+		id="82585934-3a8d-49bd-bbd9-2453f4b225e7">
+		</var>
+		<var
+		name="id"
+		id="f77e1514-8911-49f8-993b-54b1c88cee8a">
+		</var>
+	</variables>
+</repository>

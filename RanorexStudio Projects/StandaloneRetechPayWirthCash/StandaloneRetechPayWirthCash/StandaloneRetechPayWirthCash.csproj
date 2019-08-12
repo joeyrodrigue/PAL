@@ -1,0 +1,107 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2D37EA77-1DE5-404A-823E-0A46E4344CB1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>StandaloneRetechPayWirthCash</RootNamespace>
+    <AssemblyName>StandaloneRetechPayWirthCash</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>ab482ef5-abdd-493a-ba90-1100b78c5d84</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>31afde1d-4361-4e83-8657-335619d1e3af</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>d5e97b83-f309-4a9f-bff6-bc4748d955a4</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>2d523e0a-e497-489b-aa7f-e68a8833b4a2</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>91c4c678-297d-41db-a21e-d8b39fe08833</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>2d523e0a-e497-489b-aa7f-e68a8833b4a2</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7831ee51-73a1-42fe-acd8-345359b3d4dd</id>
+    </Compile>
+    <Compile Include="StandaloneRetechPayWirthCashRepository.cs">
+      <BoundTo>ab482ef5-abdd-493a-ba90-1100b78c5d84</BoundTo>
+      <DependentUpon>StandaloneRetechPayWirthCashRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>039d821d-82c7-418e-9c70-0402a49a36ae</id>
+    </Compile>
+    <None Include="app.config">
+      <id>8470a09f-0d66-47ec-ba21-5bacd86dd28b</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>ab482ef5-abdd-493a-ba90-1100b78c5d84</BoundTo>
+      <id>2d523e0a-e497-489b-aa7f-e68a8833b4a2</id>
+    </None>
+    <None Include="StandaloneRetechPayWirthCashRepository.rximg">
+      <BoundTo>ab482ef5-abdd-493a-ba90-1100b78c5d84</BoundTo>
+      <DependentUpon>StandaloneRetechPayWirthCashRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>16a52b87-5c8e-4676-8211-997e1542e275</id>
+    </None>
+    <None Include="StandaloneRetechPayWirthCashRepository.rxrep">
+      <id>ab482ef5-abdd-493a-ba90-1100b78c5d84</id>
+      <repoid>2bcc8a7d-3cc5-4809-a15d-1da34eff7b0b</repoid>
+      <reporootid>6e2a6ced-6c5f-46db-99e2-93674127280b</reporootid>
+    </None>
+    <Content Include="StandaloneRetechPayWirthCash.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>b6fcb5d7-ea4a-4a00-8440-514dcbde72bd</id>
+    </Content>
+    <Content Include="StandaloneRetechPayWirthCash.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6511de62-4976-4736-85fa-a22889297eec</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

@@ -1,0 +1,323 @@
+﻿<repository
+name="StandaloneRetechPayWirthCashRepository"
+id="2bcc8a7d-3cc5-4809-a15d-1da34eff7b0b"
+rxversion="5.1.0.18625">
+	<codegen
+	classname="StandaloneRetechPayWirthCashRepository"
+	namespace="StandaloneRetechPayWirthCash"/>
+	<rootfolder
+	name="Root"
+	id="6e2a6ced-6c5f-46db-99e2-93674127280b"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="ShellView"
+		id="c024f808-5220-4c5f-af15-64377af97fb7"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@automationid='ShellView']"
+		addcaps="form,uiautomation,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ButtonText"
+			id="40b9f416-a4e8-4585-b040-eb9aa3d3e8b5"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='ShellView']/element[@automationid='DashboardView']/button[@automationid='NewOrder']/text[@automationid='ButtonText']"
+			addcaps="text,uiautomation"
+			refimgid="894fdc21-ebaf-480f-b589-d4ee0837ea63">
+				/form[@automationid='ShellView']/?/?/button[@automationid='NewOrder']/text[@automationid='ButtonText']
+			</item>
+			<item
+			name="NewOrder"
+			id="979e0594-10c9-44b1-afdf-df6a9005ba1b"
+			searchtimeout="30000ms"
+			capname="button"
+			addcaps="button,uiautomation,uiautomationinvoke"
+			refimgid="303ea893-9c23-4a5d-a1aa-94a8309ddac8">
+				/form[@automationid='ShellView']/?/?/button[@automationid='NewOrder']
+			</item>
+			<item
+			name="FindAProductCtrlPlusS"
+			id="923aa877-876c-4584-bf31-8af52f754137"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='ShellView']/element[@automationid='HeaderView']/button/text[@name='Find a product   (Ctrl+S)']"
+			addcaps="text,uiautomation"
+			refimgid="8df91d71-0a91-413f-a052-c64a540edb6e">
+				/form[@automationid='ShellView']/?/?/button[@automationid='QuickSearchLauncherViewModel.LaunchSearch']/text[@name='Find a product   (Ctrl+S)']
+			</item>
+			<item
+			name="Shortcut"
+			id="c4440f78-a458-4c41-8478-6cfa6a727037"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='ShellView']/element[@automationid='OrderWorkspaceView']/element[@automationid='PurchaseView']/list/listitem[@name~'^GameStop\.POS\.UI\.ViewModel' and @classname='ListBoxItem' and @text~'^GameStop\.POS\.UI\.ViewModel' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/element/button[@automationid='ContinueButtonCommand']/text[@automationid='Shortcut']"
+			addcaps="text,uiautomation"
+			refimgid="5822584a-4d33-4c97-8674-e15c65d281a6">
+				/form[@automationid='ShellView']//list[@automationid='Items']/listitem[@classname='ListBoxItem' and @text~'^GameStop\.POS\.UI\.ViewModel' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/?/?/button[@automationid='ContinueButtonCommand']/text[@automationid='Shortcut']
+			</item>
+			<item
+			name="ButtonContent"
+			id="0924c25b-cedf-4df6-8137-19c4d170ca25"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='ShellView']/element[@automationid='OrderWorkspaceView']/element[@automationid='PurchaseView']/list/listitem[@name~'^GameStop\.POS\.UI\.ViewModel' and @classname='ListBoxItem' and @text~'^GameStop\.POS\.UI\.ViewModel' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/element/button[@automationid='FindCustomer']/text[@automationid='ButtonContent']"
+			addcaps="text,uiautomation"
+			refimgid="510312cb-72a7-441e-b18f-aaecca2d8013">
+				/form[@automationid='ShellView']//list[@automationid='Items']/listitem[@classname='ListBoxItem' and @text~'^GameStop\.POS\.UI\.ViewModel' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/?/?/button[@automationid='FindCustomer']/text[@automationid='ButtonContent']
+			</item>
+			<item
+			name="ButtonContent1"
+			id="495fd7d8-3c29-4970-ba86-b0c92fa2963e"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='ShellView']/element[@automationid='OrderWorkspaceView']/element[@automationid='PurchaseView']/list/listitem[@name~'^GameStop\.POS\.UI\.ViewModel' and @classname='ListBoxItem' and @text~'^GameStop\.POS\.UI\.ViewModel' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/element/button[@automationid='ContinueButtonCommand']/text[@automationid='ButtonContent']"
+			addcaps="text,uiautomation"
+			refimgid="457e3d0b-d8be-46a1-958a-1a8a84f14889">
+				/form[@automationid='ShellView']//list[@automationid='Items']/listitem[@classname='ListBoxItem' and @text~'^GameStop\.POS\.UI\.ViewModel' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/?/?/button[@automationid='ContinueButtonCommand']/text[@automationid='ButtonContent']
+			</item>
+			<item
+			name="ButtonContent2"
+			id="10b4cc19-1785-4ec7-8f86-db5ff1811279"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='ShellView']/element[@automationid='OrderWorkspaceView']/element[@automationid='PurchaseView']/list/listitem[@name~'^GameStop\.POS\.UI\.ViewModel' and @classname='ListBoxItem' and @text~'^GameStop\.POS\.UI\.ViewModel' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/element/button[@automationid='NotInterestedCommand']/text[@automationid='ButtonContent']"
+			addcaps="text,uiautomation"
+			refimgid="d4b06b34-3523-407d-8f32-489e7fff2840">
+				/form[@automationid='ShellView']//list[@automationid='Items']/listitem[@classname='ListBoxItem' and @text~'^GameStop\.POS\.UI\.ViewModel' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/?/?/button[@automationid='NotInterestedCommand']/text[@automationid='ButtonContent']
+			</item>
+			<item
+			name="QuickSearchLauncherViewModelLaunchSearc"
+			id="aab6d0d0-871b-40e0-9fda-28fcd0cd5e27"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@automationid='ShellView']/element[@automationid='HeaderView']/button[@automationid='QuickSearchLauncherViewModel.LaunchSearch']"
+			addcaps="button,uiautomation,uiautomationinvoke"
+			refimgid="5b06a319-259f-4b9a-9d9d-f8198c04201f">
+				/form[@automationid='ShellView']/?/?/button[@automationid='QuickSearchLauncherViewModel.LaunchSearch']
+			</item>
+			<item
+			name="NotInterestedCommand"
+			id="eb3a1b1d-2689-4646-ad63-9eee7c4ca8b0"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@automationid='ShellView']/element[@automationid='OrderWorkspaceView']/element[@automationid='PurchaseView']/list[@automationid='Items']/listitem[@name='GameStop.POS.UI.ViewModel.Orders.Stack.Tasks.Cart.Purchase.PUR.Benefits.PurBenefitTaskViewModel']/element[@automationid='PurBenefitTaskControl']/button[@automationid='NotInterestedCommand']"
+			addcaps="button,uiautomation,uiautomationinvoke"
+			refimgid="df7b85b0-23b6-443c-b220-e3d7032db884">
+				/form[@automationid='ShellView']//list[@automationid='Items']/listitem[@classname='ListBoxItem' and @text~'^GameStop\.POS\.UI\.ViewModel' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/?/?/button[@automationid='NotInterestedCommand']
+			</item>
+			<item
+			name="RequestCashSettlement"
+			id="1e578b55-c852-4612-b3bf-a6dc3f412d42"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@automationid='ShellView']/element[@automationid='OrderWorkspaceView']/element[@automationid='PaymentView']/button[@automationid='RequestCashSettlement']"
+			addcaps="button,uiautomation,uiautomationinvoke"
+			refimgid="fad90da3-9bd2-4d5e-beb1-dd60daef60cb">
+				/form[@automationid='ShellView']/?/?/element[@automationid='PaymentView']/button[@automationid='RequestCashSettlement']
+			</item>
+			<basepath>
+				/form[@automationid='ShellView']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIQSURBVDhPjZPPixJhHMZf8GKCi4gEahn+2IGc
+DUOHdt0Jx9rILbzopY5RoIcNokO7FGb2gzptoLhFGrHVICto0haILBmCUJDnOvU3BNvF29P7fWlE
+dz14+ODD830+c5mRDQYDR6fTabXb7SEHMzIkh1xWr9dbuq5jGs2dHcG0G0EuK5VKw2KxiINUt7bw
++9MHAeVpG3JZLpfDOIV8HoPtCn7qb/CLQ78EdYX8/YktwbLZLDKZzIju5jPs61UU766j+fShgDJ1
+X/htfEsuS6fTSKVSgmtXr+Dvq+eobdwedQbU0Y02RkcuC4fDiMVigpuJBPav38Ct1UujzoA6uq3x
+jdGRy0wmE2w2GzweD1blBfy5cBn3llSEQqEJqKMbbWhLDrnMYrHAbDYLjnB2j/mwd2Ie7rk5WK1W
+AWXqPvIbbYw9ucxut4unGSiOo/ghncI3aQEPjntR4HznmboIv41vyWUulwtOp3MC2e3G4/mT2JVP
+CyhTd3BHLvP7/fB6vYhEIpAkSeRxAj4flEDgUE+Qy2RZRjAYRLfbRaVSQbVaRa1WQ6PRQLlcxrs7
+G/i8rGF76SxeL6p4sbiMzTNRyNwhlymKMqTXwf8c4iG9Xk/kfr+PZrOJt4+e4OtKAi9j57B3PoEu
+z++1FfEKyWWqqrai0Shm5aKqQv2fyWXJZNIRj8db/MMYapqGWaAtOZqmOf4BcB4S4aZTT2wAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="QuickSearchView"
+		id="6290ae0e-7566-4fbe-8d64-62cff206adf0"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@automationid='QuickSearchView']"
+		addcaps="form,uiautomation,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Name"
+			id="7aa8032b-dc1e-4b13-a125-35f85c05065f"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='QuickSearchView']/element[@automationid='ResultsControl']/list/listitem[1]/text[@automationid='Name']"
+			addcaps="text,uiautomation"
+			refimgid="13ae8c1a-1da0-4246-9865-63584b8f5792">
+				/form[@automationid='QuickSearchView']/?/?/list/listitem[1]/text[@automationid='Name']
+			</item>
+			<item
+			name="PreOwned"
+			id="8eca2963-85e7-4872-aa02-a45668d7dec0"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='QuickSearchView']/element[@automationid='ProductSelectionControl']/button[@automationid='SelectPreOwnedSku' and @classname='Button' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/text[@name='Pre-Owned']"
+			addcaps="text,uiautomation"
+			refimgid="6d16bd2b-e5d6-4a4d-8609-c3bd6f9a0a71">
+				/form[@automationid='QuickSearchView']/?/?/button[@automationid='SelectPreOwnedSku' and @classname='Button' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/text[@name='Pre-Owned']
+			</item>
+			<item
+			name="TextDollar099"
+			id="96e3afe1-aa5c-4dff-9715-a7dbf44b9769"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='QuickSearchView']/element[@automationid='ProductSelectionControl']/button[@automationid='SelectPreOwnedSku' and @classname='Button' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/text[@name='$0.99']"
+			addcaps="text,uiautomation"
+			refimgid="e22dfe4f-7017-4abe-90f9-ae15a112cc4f">
+				/form[@automationid='QuickSearchView']/?/?/button[@automationid='SelectPreOwnedSku' and @classname='Button' and @orientation='None' and @iscontentelement='True' and @iscontrolelement='True' and @iskeyboardfocusable='True']/text[@name='$0.99']
+			</item>
+			<basepath>
+				/form[@automationid='QuickSearchView']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIQSURBVDhPjZPPixJhHMZf8GKCi4gEahn+2IGc
+DUOHdt0Jx9rILbzopY5RoIcNokO7FGb2gzptoLhFGrHVICto0haILBmCUJDnOvU3BNvF29P7fWlE
+dz14+ODD830+c5mRDQYDR6fTabXb7SEHMzIkh1xWr9dbuq5jGs2dHcG0G0EuK5VKw2KxiINUt7bw
++9MHAeVpG3JZLpfDOIV8HoPtCn7qb/CLQ78EdYX8/YktwbLZLDKZzIju5jPs61UU766j+fShgDJ1
+X/htfEsuS6fTSKVSgmtXr+Dvq+eobdwedQbU0Y02RkcuC4fDiMVigpuJBPav38Ct1UujzoA6uq3x
+jdGRy0wmE2w2GzweD1blBfy5cBn3llSEQqEJqKMbbWhLDrnMYrHAbDYLjnB2j/mwd2Ie7rk5WK1W
+AWXqPvIbbYw9ucxut4unGSiOo/ghncI3aQEPjntR4HznmboIv41vyWUulwtOp3MC2e3G4/mT2JVP
+CyhTd3BHLvP7/fB6vYhEIpAkSeRxAj4flEDgUE+Qy2RZRjAYRLfbRaVSQbVaRa1WQ6PRQLlcxrs7
+G/i8rGF76SxeL6p4sbiMzTNRyNwhlymKMqTXwf8c4iG9Xk/kfr+PZrOJt4+e4OtKAi9j57B3PoEu
+z++1FfEKyWWqqrai0Shm5aKqQv2fyWXJZNIRj8db/MMYapqGWaAtOZqmOf4BcB4S4aZTT2wAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="LoginView"
+		id="e0a9ed9c-2c6a-43b4-9889-b275380f3422"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@automationid='LoginView']"
+		addcaps="form,uiautomation,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="PARTContentHost"
+			id="bd319a76-3b11-4d50-94e0-2dbbdbe4d0d3"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@automationid='LoginView']/text[@automationid='txtPassword']/container[@automationid='PART_ContentHost']"
+			addcaps="container,uiautomation"
+			refimgid="4ffea78d-7a0a-4285-990e-37c441bab6a9">
+				/form[@automationid='LoginView']/text[@automationid='txtPassword']/container[@automationid='PART_ContentHost']
+			</item>
+			<item
+			name="TxtPassword"
+			id="3dbdebf0-ae0b-42e2-890c-4e75a0933b88"
+			searchtimeout="30000ms"
+			capname="text"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="176194c7-922c-4f80-a0a9-aa9694367654">
+				/form[@automationid='LoginView']/text[@automationid='txtPassword']
+			</item>
+			<item
+			name="AnotherTransaction"
+			id="3d245348-79c8-405f-a728-2ded091b7dec"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='LoginView']/element[@automationid='DialogMessage']/text[@automationid='Title']"
+			addcaps="text,uiautomation"
+			refimgid="c14d2032-9654-443e-96e3-05c1579a2f9a">
+				/form[@automationid='LoginView']/?/?/text[@automationid='Title']
+			</item>
+			<basepath>
+				/form[@automationid='LoginView']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIQSURBVDhPjZPPixJhHMZf8GKCi4gEahn+2IGc
+DUOHdt0Jx9rILbzopY5RoIcNokO7FGb2gzptoLhFGrHVICto0haILBmCUJDnOvU3BNvF29P7fWlE
+dz14+ODD830+c5mRDQYDR6fTabXb7SEHMzIkh1xWr9dbuq5jGs2dHcG0G0EuK5VKw2KxiINUt7bw
++9MHAeVpG3JZLpfDOIV8HoPtCn7qb/CLQ78EdYX8/YktwbLZLDKZzIju5jPs61UU766j+fShgDJ1
+X/htfEsuS6fTSKVSgmtXr+Dvq+eobdwedQbU0Y02RkcuC4fDiMVigpuJBPav38Ct1UujzoA6uq3x
+jdGRy0wmE2w2GzweD1blBfy5cBn3llSEQqEJqKMbbWhLDrnMYrHAbDYLjnB2j/mwd2Ie7rk5WK1W
+AWXqPvIbbYw9ucxut4unGSiOo/ghncI3aQEPjntR4HznmboIv41vyWUulwtOp3MC2e3G4/mT2JVP
+CyhTd3BHLvP7/fB6vYhEIpAkSeRxAj4flEDgUE+Qy2RZRjAYRLfbRaVSQbVaRa1WQ6PRQLlcxrs7
+G/i8rGF76SxeL6p4sbiMzTNRyNwhlymKMqTXwf8c4iG9Xk/kfr+PZrOJt4+e4OtKAi9j57B3PoEu
+z++1FfEKyWWqqrai0Shm5aKqQv2fyWXJZNIRj8db/MMYapqGWaAtOZqmOf4BcB4S4aZTT2wAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="FindCustomerView"
+		id="eaf66e36-b247-4829-ae9f-681b3971dbc4"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@automationid='FindCustomerView']"
+		addcaps="form,uiautomation,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="EmailAddress"
+			id="bc73a9d9-4e98-4ff9-8b17-c0f47083a915"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@automationid='FindCustomerView']/container/list/listitem[2]/text[@automationid='EmailAddress']"
+			addcaps="text,uiautomation"
+			refimgid="ac3ddc07-e94a-43ca-8c72-57f3a04e6f8c">
+				/form[@automationid='FindCustomerView']/?/?/list/listitem[2]/text[@automationid='EmailAddress']
+			</item>
+			<item
+			name="PARTContentHost"
+			id="60acb003-2558-4f02-816f-3bd39400e79d"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@automationid='FindCustomerView']/text[@automationid='CustomerLookupTxt']/container[@automationid='PART_ContentHost']"
+			addcaps="container,uiautomation"
+			refimgid="cfc7e5de-3639-4e23-9fc9-31a6b378df81">
+				/form[@automationid='FindCustomerView']/?/?/container[@automationid='PART_ContentHost']
+			</item>
+			<item
+			name="CustomerLookupTxt"
+			id="bad78379-c908-4b30-b4e8-d5fab1313c04"
+			searchtimeout="30000ms"
+			capname="text"
+			addcaps="text,uiautomation,uiautomationvalue"
+			refimgid="91d9a361-4f47-401e-8b59-23f8facba878">
+				/form[@automationid='FindCustomerView']/text[@automationid='CustomerLookupTxt']
+			</item>
+			<item
+			name="ListBoxItem"
+			id="01f49b67-36d8-4963-af8c-47a8460745ca"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@automationid='FindCustomerView']/container[@classname='ScrollViewer']/list[@automationid='CustomerSearchResult.CustomerSearchResults']/listitem[1]"
+			addcaps="listitem,uiautomation"
+			refimgid="264fdcce-c470-41f0-96e5-c08ca5b27cf2">
+				/form[@automationid='FindCustomerView']/?/?/list[@automationid='CustomerSearchResult.CustomerSearchResults']/listitem[1]
+			</item>
+			<basepath>
+				/form[@automationid='FindCustomerView']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIQSURBVDhPjZPPixJhHMZf8GKCi4gEahn+2IGc
+DUOHdt0Jx9rILbzopY5RoIcNokO7FGb2gzptoLhFGrHVICto0haILBmCUJDnOvU3BNvF29P7fWlE
+dz14+ODD830+c5mRDQYDR6fTabXb7SEHMzIkh1xWr9dbuq5jGs2dHcG0G0EuK5VKw2KxiINUt7bw
++9MHAeVpG3JZLpfDOIV8HoPtCn7qb/CLQ78EdYX8/YktwbLZLDKZzIju5jPs61UU766j+fShgDJ1
+X/htfEsuS6fTSKVSgmtXr+Dvq+eobdwedQbU0Y02RkcuC4fDiMVigpuJBPav38Ct1UujzoA6uq3x
+jdGRy0wmE2w2GzweD1blBfy5cBn3llSEQqEJqKMbbWhLDrnMYrHAbDYLjnB2j/mwd2Ie7rk5WK1W
+AWXqPvIbbYw9ucxut4unGSiOo/ghncI3aQEPjntR4HznmboIv41vyWUulwtOp3MC2e3G4/mT2JVP
+CyhTd3BHLvP7/fB6vYhEIpAkSeRxAj4flEDgUE+Qy2RZRjAYRLfbRaVSQbVaRa1WQ6PRQLlcxrs7
+G/i8rGF76SxeL6p4sbiMzTNRyNwhlymKMqTXwf8c4iG9Xk/kfr+PZrOJt4+e4OtKAi9j57B3PoEu
+z++1FfEKyWWqqrai0Shm5aKqQv2fyWXJZNIRj8db/MMYapqGWaAtOZqmOf4BcB4S4aZTT2wAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

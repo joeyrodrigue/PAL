@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.1.0.18625"
+id="f10ccda0-b815-4c68-ad07-d54c5f68b733"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="StandaloneRetechPayWirthCash"/>
+	<variables/>
+	<recorditems/>
+	<repository
+	name="StandaloneRetechPayWirthCashRepository"
+	id="2bcc8a7d-3cc5-4809-a15d-1da34eff7b0b"
+	rxversion="5.1.0.18625"
+	relativepath="StandaloneRetechPayWirthCashRepository.rxrep">
+		<codegen
+		classname="StandaloneRetechPayWirthCashRepository"
+		namespace="StandaloneRetechPayWirthCash"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="6e2a6ced-6c5f-46db-99e2-93674127280b"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

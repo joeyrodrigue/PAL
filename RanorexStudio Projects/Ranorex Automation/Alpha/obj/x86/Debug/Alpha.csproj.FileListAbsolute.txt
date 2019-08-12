@@ -1,0 +1,16 @@
+C:\Documents and Settings\StoreUser\My Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\bin\Debug\Alpha.rxtmg
+C:\Documents and Settings\StoreUser\My Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\bin\Debug\Alpha.rxtst
+C:\Documents and Settings\StoreUser\My Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\bin\Debug\Alpha.exe.config
+C:\Documents and Settings\StoreUser\My Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\bin\Debug\Alpha.exe
+C:\Documents and Settings\StoreUser\My Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\bin\Debug\Alpha.pdb
+C:\Documents and Settings\StoreUser\My Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\StoreUser\My Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\obj\x86\Debug\Alpha.exe
+C:\Documents and Settings\StoreUser\My Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\obj\x86\Debug\Alpha.pdb
+C:\Users\Joey\Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joey\Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\obj\x86\Debug\Alpha.exe
+C:\Users\Joey\Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\obj\x86\Debug\Alpha.pdb
+C:\Users\Joey\Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\bin\Debug\Alpha.rxtmg
+C:\Users\Joey\Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\bin\Debug\Alpha.rxtst
+C:\Users\Joey\Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\bin\Debug\Alpha.exe.config
+C:\Users\Joey\Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\bin\Debug\Alpha.exe
+C:\Users\Joey\Documents\Ranorex\RanorexStudio Projects\Alpha\Alpha\bin\Debug\Alpha.pdb

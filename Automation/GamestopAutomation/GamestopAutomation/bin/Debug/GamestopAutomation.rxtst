@@ -1,0 +1,36 @@
+﻿<testsuite
+name="GamestopAutomation"
+rxversion="4.1.4.16685"
+id="fec5c901-753e-4b33-865f-b3554a9335bb"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reportdirectoryname="C:\PAL\Reports"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+description=""
+reportlevel="Info;20"
+warnunboundvariables="False">
+	<content>
+		<testcase
+		name="TestCase"
+		id="b72a18d8-8ad6-4128-a020-e9686ebd2985">
+			<testmodule
+			name="Root"
+			id="a69b6bda-96af-4b11-81b5-c3cc3a49fee3"
+			ref="3d31bd85-196b-41ac-b353-db940a0ce609"
+			type="UserCode"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="b72a18d8-8ad6-4128-a020-e9686ebd2985"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

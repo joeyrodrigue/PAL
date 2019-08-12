@@ -1,0 +1,33 @@
+﻿<testsuite
+name="StandaloneRetechPayWirthCash"
+rxversion="5.1.0.18625"
+id="1ec83288-9f2c-4d8f-a01f-fcdce1139e90"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="TestCase"
+		id="fc85165d-f68d-4e5a-ba9c-4950f31e3eb5">
+			<testmodule
+			name="Recording1"
+			id="cfa64efa-1abb-49ad-8ed6-5a4f0ab5c2d2"
+			ref="f10ccda0-b815-4c68-ad07-d54c5f68b733"
+			type="Recording"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="fc85165d-f68d-4e5a-ba9c-4950f31e3eb5"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

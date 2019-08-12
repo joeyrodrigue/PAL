@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{5B6C81CD-D22C-4BCA-81D5-3F59E438488A}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Ranorex Automation[Ranorex Automation[APlaceToTryCodeAfterInit.rxrec[]]]]&#xD;&#xA;Solution Ranorex Automation\Ranorex Automation\RanorexRepository.rxrep&#xD;&#xA;Solution Ranorex Automation\Ranorex Automation\fnWriteOutStatsQ4Buffer.cs" />
+  <StartupProject value="{5B6C81CD-D22C-4BCA-81D5-3F59E438488A}" />
+</Properties>

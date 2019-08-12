@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="RanorexReport.xsl"?>
+<log title="Ranorex Test Report" rxversion="4.0.4.23593" osversion="Windows 7 Service Pack 1 64bit" runtimeversion="4.0.30319.18052" procarch="32bit">
+<message time="2013/08/19 10:51:53.324" level="WARN" category="Java AWT/Swing" style="">
+<![CDATA[Please make sure that you have correctly instrumented your Java installation or application. Otherwise Ranorex is not able to access UI objects inside your Java AWT/Swing application.]]><br/>
+<![CDATA[The following website provides more information on this technology limitation:]]><br/>
+<![CDATA[http://www.ranorex.com/support/user-guide-20/technology-instrumentation/testing-of-java-applications.html]]><br/>
+<![CDATA[(This message is only shown once per report.)]]><br/>
+</message>
+</log>
